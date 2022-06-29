@@ -1,20 +1,14 @@
 import React from "react";
-import { useState } from "react";
-import "./App.css";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Top from "./pages/Top/Top";
 
 const App: React.FC = () => {
-    const [questionCard, setQuestionCard] = useState<boolean>(false);
-    const handleClick = (e: React.MouseEvent<HTMLButtonElement>) => {
-        setQuestionCard(true);
-    };
     return (
-        <div className="App">
-            <h1 className="heading">Star wars matching</h1>
-            {!questionCard && <h2 className="subHeading">Find Your Best Star Wars Series</h2>}
-            {!questionCard && <button className="button" onClick={handleClick}>
-                Start Now
-            </button>}
-        </div>
+        <BrowserRouter>
+            <Routes>
+                <Route path="/" element={<Top />} />
+            </Routes>
+        </BrowserRouter>
     );
 };
 

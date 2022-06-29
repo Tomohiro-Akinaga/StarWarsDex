@@ -4,18 +4,12 @@
 }
 
 * {
-    font-family: "Starjedi";
+    color: #fff;
 }
 
 body {
     margin: 0;
     background-color: #000;
-}
-
-.header {
-    color: #ffe81f;
-    font-size: 4rem;
-    font-weight: 300;
 }
 
 @media only screen and (max-width: 960px) {
