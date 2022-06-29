@@ -1,0 +1,26 @@
+@font-face {
+    font-family: "Starjedi";
+    src: url("./fonts/Starjedi.ttf") format("truetype");
+}
+
+* {
+    font-family: "Starjedi";
+}
+
+body {
+    margin: 0;
+    background-color: #000;
+}
+
+.header {
+    color: #ffe81f;
+    font-size: 4rem;
+    font-weight: 300;
+}
+
+@media only screen and (max-width: 960px) {
+    /* body {
+        background-image: url("./assets/space-portrait.jpg");
+        background-size: cover;
+    } */
+}
