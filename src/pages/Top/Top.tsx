@@ -5,6 +5,7 @@ import Footer from "../../components/Footer/Footer";
 import CardList from "../../components/CardList/CardList";
 
 const Top: React.FC = () => {
+
     return (
         <>
             <Header />
