@@ -1,0 +1,16 @@
+{
+    "characters": [
+        {
+            "name": "QUI-GON JINN",
+            "Gender": "Male",
+            "Height": "1.93m",
+            "Weapons": "Lightsaber",
+            "description": "A venerable if maverick Jedi Master, Qui-Gon Jinn was a student of the living Force. Qui-Gon lived for the moment, espousing a philosophy of \"feel, don't think -- use your instincts.\" On Tatooine, Qui-Gon discovered a young slave boy named Anakin Skywalker who was strong in the Force. Sensing the boy's potential, Qui-Gon liberated Anakin from slavery. The Jedi Master presented Anakin to the Jedi Council, but they deemed the boy too old to begin training and dangerously full of fear and anger. They refused to allow Qui-Gon to train Anakin, but rescinded their decision to fulfill Qui-Gon's dying wish.",
+            "Quotes": [
+                "There's always a bigger fish",
+                "Greed can be a powerful ally",
+                "He is the chosen one. You must see it."
+            ]
+        }
+    ]
+}
